@@ -1,0 +1,14 @@
+GET http://localhost:3333/users
+
+###
+
+POST http://localhost:3333/users
+
+{
+  "name": "João3",
+  "email": "joao.teste@teste.com"
+}
+
+###
+
+GET http://localhost:3333/wrong
